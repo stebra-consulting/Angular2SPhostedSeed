@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="RootModule">
+    <File Path="package.json" Url="package.json" ReplaceContent="TRUE" />
+    <File Path="tsconfig.json" Url="tsconfig.json" ReplaceContent="TRUE" />
+    <File Path="node_modules\angular2\bundles\angular2-polyfills.js" Url="node_modules/angular2/bundles/angular2-polyfills.js" ReplaceContent="TRUE" />
+    <File Path="node_modules\es6-shim\es6-shim.min.js" Url="node_modules/es6-shim/es6-shim.min.js" ReplaceContent="TRUE" />
+    <File Path="node_modules\systemjs\dist\system.js" Url="node_modules/systemjs/dist/system.js" ReplaceContent="TRUE" />
+    <File Path="node_modules\rxjs\bundles\Rx.js" Url="node_modules/rxjs/bundles/Rx.js" ReplaceContent="TRUE" />
+    <File Path="node_modules\angular2\bundles\angular2.dev.js" Url="node_modules/angular2/bundles/angular2.dev.js" ReplaceContent="TRUE" />
+    <File Path="node_modules\angular2\bundles\router.dev.js" Url="node_modules/angular2/bundles/router.dev.js" ReplaceContent="TRUE" />
+    <File Path="src\app.component.ts" Url="src/app.component.ts" ReplaceContent="TRUE" />
+    <File Path="src\boot.ts" Url="src/boot.ts" ReplaceContent="TRUE" />
+    <File Path="src\message.component.ts" Url="src/message.component.ts" ReplaceContent="TRUE" />
+  </Module>
+</Elements>

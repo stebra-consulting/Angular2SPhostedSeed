@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProjectItem Type="Microsoft.VisualStudio.SharePoint.Module" DefaultFile="Elements.xml" SupportedTrustLevels="All" SupportedDeploymentScopes="Web, Site" xmlns="http://schemas.microsoft.com/VisualStudio/2010/SharePointTools/SharePointProjectItemModel">
+  <Files>
+    <ProjectItemFile Source="Elements.xml" Type="ElementManifest" />
+    <ProjectItemFile Source="package.json" Type="ElementFile" />
+    <ProjectItemFile Source="tsconfig.json" Type="ElementFile" />
+    <ProjectItemFile Source="node_modules\angular2\bundles\angular2-polyfills.js" Target="node_modules\angular2\bundles\" Type="ElementFile" />
+    <ProjectItemFile Source="node_modules\es6-shim\es6-shim.min.js" Target="node_modules\es6-shim\" Type="ElementFile" />
+    <ProjectItemFile Source="node_modules\systemjs\dist\system.js" Target="node_modules\systemjs\dist\" Type="ElementFile" />
+    <ProjectItemFile Source="node_modules\rxjs\bundles\Rx.js" Target="node_modules\rxjs\bundles\" Type="ElementFile" />
+    <ProjectItemFile Source="node_modules\angular2\bundles\angular2.dev.js" Target="node_modules\angular2\bundles\" Type="ElementFile" />
+    <ProjectItemFile Source="node_modules\angular2\bundles\router.dev.js" Target="node_modules\angular2\bundles\" Type="ElementFile" />
+    <ProjectItemFile Source="src\app.component.ts" Target="src\" Type="ElementFile" />
+    <ProjectItemFile Source="src\boot.ts" Target="src\" Type="ElementFile" />
+    <ProjectItemFile Source="src\message.component.ts" Target="src\" Type="ElementFile" />
+  </Files>
+</ProjectItem>
